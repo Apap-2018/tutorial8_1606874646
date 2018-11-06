@@ -1,4 +1,4 @@
-package com.apap.tutorial6.repository;
+package com.apap.tutorial8.repository;
 
 import static org.junit.Assert.assertThat;
 
@@ -14,8 +14,9 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.apap.tutorial6.model.CarModel;
-import com.apap.tutorial6.model.DealerModel;
+import com.apap.tutorial8.model.CarModel;
+import com.apap.tutorial8.model.DealerModel;
+import com.apap.tutorial8.repository.CarDb;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

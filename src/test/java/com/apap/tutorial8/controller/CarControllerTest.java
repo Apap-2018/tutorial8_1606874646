@@ -1,4 +1,4 @@
-package com.apap.tutorial6.controller;
+package com.apap.tutorial8.controller;
 import java.util.Optional;
 
 import org.hamcrest.Matchers;
@@ -14,9 +14,10 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import org.springframework.http.MediaType;
 
-import com.apap.tutorial6.model.CarModel;
-import com.apap.tutorial6.service.CarService;
-import com.apap.tutorial6.service.DealerService;
+import com.apap.tutorial8.controller.CarController;
+import com.apap.tutorial8.model.CarModel;
+import com.apap.tutorial8.service.CarService;
+import com.apap.tutorial8.service.DealerService;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(CarController.class)

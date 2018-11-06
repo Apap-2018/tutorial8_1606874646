@@ -1,4 +1,4 @@
-package com.apap.tutorial6.service;
+package com.apap.tutorial8.service;
 import static org.junit.Assert.assertThat;
 
 import java.util.Optional;
@@ -13,8 +13,10 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.apap.tutorial6.model.CarModel;
-import com.apap.tutorial6.repository.CarDb;
+import com.apap.tutorial8.model.CarModel;
+import com.apap.tutorial8.repository.CarDb;
+import com.apap.tutorial8.service.CarService;
+import com.apap.tutorial8.service.CarServiceImpl;
 
 @RunWith(SpringRunner.class)
 public class CarServiceTest {
